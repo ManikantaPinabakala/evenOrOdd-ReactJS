@@ -1,0 +1,42 @@
+.main-bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  height: 80%;
+  width: 80%;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 20px;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+}
+
+.paragraph {
+  color: #334155;
+  font-size: 24px;
+}
+
+.button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  color: #1e293b;
+  width: 150px;
+  font-weight: bold;
+}
+
+.instruction {
+  color: #334155;
+  font-size: 12px;
+}
